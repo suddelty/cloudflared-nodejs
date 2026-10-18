@@ -1,0 +1,14 @@
+{
+  "name": "cloudflared-nodejs",
+  "version": "1.0.0",
+  "description": "Runs a Cloudflare Tunnel using the token from .env",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cloudflared": "^0.7.3",
+    "dotenv": "^17.2.0"
+  }
+}
